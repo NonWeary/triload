@@ -26,13 +26,6 @@ export default async function Home() {
 
       {/* Main hero */}
       <main className="flex flex-col items-center text-center px-8 pt-16 md:pt-24">
-        <p
-          className="text-xs uppercase tracking-widest mb-5"
-          style={{ color: "#7A6E5F", letterSpacing: "0.18em" }}
-        >
-          Training load · Powered by Strava
-        </p>
-
         <h1
           style={{
             fontFamily: "var(--font-playfair)",
@@ -44,17 +37,16 @@ export default async function Home() {
             letterSpacing: "-0.02em",
           }}
         >
-          Know your
+          See your
           <br />
-          <span style={{ color: "#FC4C02" }}>limits.</span>
+          <span style={{ color: "#FC4C02" }}>training load.</span>
         </h1>
 
         <p
           className="mt-8 text-base max-w-sm"
           style={{ color: "#7A6E5F", lineHeight: 1.75, fontFamily: "var(--font-dm-sans)" }}
         >
-          CTL, ATL, and TSB pulled live from Strava.
-          Your training load, laid bare.
+          Connect to Strava.
         </p>
 
         <SignInButton />
