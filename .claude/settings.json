@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(node -e \"const p = require\\(''c:/Users/User/Documents/triload/triload/node_modules/next-auth/package.json''\\); console.log\\(p.version\\)\")",
+      "Bash(cp app/globals.css src/app/globals.css)",
+      "Bash(cp app/favicon.ico src/app/favicon.ico)",
+      "Bash(cp app/layout.tsx src/app/layout.tsx)",
+      "Bash(cp app/page.tsx src/app/page.tsx)",
+      "Bash(rm -rf app/)"
+    ]
+  }
+}
