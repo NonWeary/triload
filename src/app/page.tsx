@@ -10,7 +10,7 @@ export default async function Home() {
   return (
     <div className="min-h-screen" style={{ backgroundColor: "#F4EFE6", overflow: "hidden" }}>
       {/* Header */}
-      <header className="px-8 py-6">
+      <header className="px-8 py-6 flex justify-center">
         <span
           style={{
             fontFamily: "var(--font-playfair)",
@@ -25,7 +25,7 @@ export default async function Home() {
       </header>
 
       {/* Main hero */}
-      <main className="px-8 pt-16 md:pt-24 max-w-3xl">
+      <main className="flex flex-col items-center text-center px-8 pt-16 md:pt-24">
         <p
           className="text-xs uppercase tracking-widest mb-5"
           style={{ color: "#7A6E5F", letterSpacing: "0.18em" }}
@@ -60,7 +60,7 @@ export default async function Home() {
         <SignInButton />
 
         {/* Ruled lines — editorial decoration */}
-        <div className="mt-16 space-y-px" style={{ opacity: 0.35 }}>
+        <div className="mt-16 w-full max-w-xs space-y-px" style={{ opacity: 0.35 }}>
           {[0, 1, 2].map((i) => (
             <div key={i} style={{ height: 1, backgroundColor: "#DDD5C4" }} />
           ))}
